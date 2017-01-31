@@ -1,0 +1,56 @@
+
+html * {
+    box-sizing : border-box;
+}
+
+html,
+body {
+    margin      : 0;
+    font-family : 'Lato',
+                  sans-serif;
+}
+
+body > div {
+    text-align : center;
+    width      : 100wh;
+}
+
+#title {
+    height           : 100vh;
+    background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg');
+    background-size  : cover;
+}
+#title h1 {
+    margin           : 0;
+    font-size        : 72pt;
+    line-height      : 100vh;
+    color            : white;
+    letter-spacing   : 4pt;
+    background-color : rgba(0,0,0,0.5);
+}
+
+#why {
+    height           : auto;
+    padding          : 50px 25px;
+    /* background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg'); */
+    background-color : rgba(0,155,100,1);
+    background-size  : cover;
+}
+#why p,
+#why a {
+    color     : white;
+    margin    : 0;
+    font-size : 18pt;
+}
+#why a {
+    margin          : 0;
+    color           : yellow;
+    text-decoration : none;
+}
+
+#when {}
+
+#what {}
+
+#who {}
+
