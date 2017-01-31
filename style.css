@@ -25,12 +25,11 @@ body > div {
     font-size        : 72pt;
     line-height      : 100vh;
     color            : white;
-    letter-spacing   : 4pt;
+    letter-spacing   : 10pt;
     background-color : rgba(0,0,0,0.5);
 }
 
 #why {
-    height           : auto;
     padding          : 50px 25px;
     /* background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg'); */
     background-color : rgba(0,155,100,1);
@@ -48,7 +47,18 @@ body > div {
     text-decoration : none;
 }
 
-#when {}
+#when {
+    padding          : 50px 25px;
+    /* background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg'); */
+    background-color : rgba(220,75,75,1);
+    background-size  : cover;
+}
+#when h2 {
+    color          : white;
+    text-transform : uppercase;
+    font-size      : 24pt;
+    letter-spacing : 3pt;
+}
 
 #what {}
 
