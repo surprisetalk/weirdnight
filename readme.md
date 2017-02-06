@@ -73,7 +73,7 @@
 - [ ] switch out lemon tree prank (switch neighbors' trees)
 - [ ] surprise garden
 - [ ] button maker!
-- [ ] (interesting) snow cones
+- [ ] interesting? snow cones
 - [ ] tea party
 - [ ] play music for retirement home
 - [ ] door-to-door satanists
