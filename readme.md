@@ -131,6 +131,7 @@
 - [ ] clarity on repeat
 - [ ] make fake craigslist ads
 - [ ] origami, small and large
+- [ ] secret fanta
 
 ## DAVIS
 
