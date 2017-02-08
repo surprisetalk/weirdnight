@@ -1,4 +1,7 @@
 
+
+/*** GLOBAL **********************************************************/
+
 html * {
     box-sizing : border-box;
 }
@@ -10,10 +13,28 @@ body {
                   sans-serif;
 }
 
+a {
+    text-decoration : none;
+    opacity         : 0.75;
+}
+a:hover {
+    opacity : 1;
+    transition : opacity 0.5s;
+}
+
+li {
+    list-style: circle;
+}
+
 body > div {
     text-align : center;
     width      : 100wh;
+    clear      : both;
+    overflow   : hidden;
 }
+
+
+/*** TITLE ***********************************************************/
 
 #title {
     height           : 100vh;
@@ -22,45 +43,141 @@ body > div {
 }
 #title h1 {
     margin           : 0;
-    font-size        : 72pt;
+    font-size        : 10vw;
     line-height      : 100vh;
     color            : white;
     letter-spacing   : 10pt;
     background-color : rgba(0,0,0,0.5);
 }
 
+
+/*** WHY *************************************************************/
+
 #why {
     padding          : 50px 25px;
     /* background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg'); */
-    background-color : rgba(0,155,100,1);
+    background-color : rgb(0,155,100);
     background-size  : cover;
 }
 #why p,
 #why a {
     color     : white;
     margin    : 0;
-    font-size : 18pt;
+    font-size : 2.75vw;
 }
 #why a {
     margin          : 0;
     color           : yellow;
-    text-decoration : none;
 }
 
+
+/*** WHAT ************************************************************/
+
+#what {
+    background-color : yellow;
+    padding-left     : 10vh;
+}
+#what h2, h3 {
+    color  : white;
+    margin : 0.25em 0;
+}
+#what h2 {
+    font-size : 7.5vw;
+}
+#what h3 {
+    font-size   : 4vw;
+    font-weight : 300;
+    opacity     : 0.65;
+}
+#what a {
+    color : yellow;
+}
+#what > div {
+    width   : 100%;
+    height  : 75vh;
+    padding-top : 15vh;
+    background-size       : cover;
+    background-position   : center;
+    background-blend-mode : multiply;
+}
+#what-1 {
+    background-image      : url('http://www.organicauthority.com/wp-content/uploads/2013/12/taro-root.jpeg');
+    background-color      : purple;
+}
+#what-2 {
+    /* background-image      : url('https://cdn.thingiverse.com/renders/c9/91/7b/5d/70/photo_display_large_preview_featured.jpg'); */
+    background-image      : url('http://sociorocketnewsen.files.wordpress.com/2012/10/3.jpg');
+    background-position   : center left;
+    background-color      : teal;
+}
+#what-3 {
+    /* background-image      : url('http://luluclay.com/wp-content/uploads/2014/03/polymer-clay-sea-creatures-600-2.jpg'); */
+    background-image      : url('http://s-media-cache-ak0.pinimg.com/originals/ea/77/6f/ea776f5e74c01f26066a2be1aa19dc2d.jpg');
+    background-color      : rgb(220,75,75);
+}
+
+
+/*** WHEN ************************************************************/
+
 #when {
-    padding          : 50px 25px;
     /* background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg'); */
-    background-color : rgba(220,75,75,1);
+    background-color : rgb(220,75,75);
     background-size  : cover;
 }
 #when h2 {
+    margin         : 0;
     color          : white;
     text-transform : uppercase;
     font-size      : 24pt;
     letter-spacing : 3pt;
+    line-height    : 50vh;
 }
 
-#what {}
 
-#who {}
+/*** WHEN AND WHERE **************************************************/
 
+/* TODO: use media query to give them their own rows on mobile */
+
+#where-and-how > * {
+    width  : 50%;
+    float  : left;
+    height : 50vh;
+}
+
+#how {
+    text-align       : center;
+    color            : white;
+    background-color : rgb(0,155,100);
+    font-size        : 1.35em;
+}
+#how > div {
+    margin     : 10% auto;
+    width      : 75%;
+    text-align : left;
+}
+#how li {
+    color : rgb(200,200,100);
+}
+
+
+/*** WHO *************************************************************/
+
+#who {
+    /* background-image : url('http://angrytrainerfitness.com/wp-content/uploads/2012/08/bananas.jpg'); */
+    background-color : rgb(0,100,200);
+    background-size  : cover;
+}
+#who a {
+    font-size   : 144pt;
+    color       : white;
+    line-height : 50vh;
+}
+
+
+/*** FOOTER **********************************************************/
+
+footer {
+    width            : 100vw;
+    height           :  5vh;
+    background-color : rgb(0,50,150);
+}
