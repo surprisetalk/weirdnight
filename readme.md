@@ -134,6 +134,7 @@
 - [ ] origami, small and large
 - [ ] secret fanta
 - [ ] balcony taunting
+- [ ] record fake conference/"TED" talks
 
 ## DAVIS
 
